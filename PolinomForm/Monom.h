@@ -51,9 +51,6 @@ public:
 			arrPr[i] = 0;
 		}
 
-		// Ебучие пироги, одни костыли
-		// Ден, оно работает, забей хуй
-
 		bool flagVarriable = (str.find("x") != std::string::npos);
 		bool flagCheck = false;
 
@@ -244,7 +241,6 @@ public:
 		if (!flag)
 		{
 			return Monom(0, 0);
-			//throw std::logic_error{ "maximum degree exceeded" };
 		}
 
 		result.coef = newCoef;
@@ -252,7 +248,7 @@ public:
 
 		return result;
 	}
-	std::string ToString(int maxPr, int count)
+	std::string MonomToString(int maxPr, int count)
 	{
 		std::string result{};
 

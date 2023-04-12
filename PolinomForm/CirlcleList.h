@@ -95,14 +95,14 @@ public:
 
 		if (current != head)
 		{
-			str += current->ToString(maxpw, count);
+			str += current->MonomToString(maxpw, count);
 			current = current->getNext();
 		}
 
 		while (current != head)
 		{
 			if (current->getCoef() > 0) str += " + ";
-			str += current->ToString(maxpw, count);
+			str += current->MonomToString(maxpw, count);
 
 			current = current->getNext();
 		}

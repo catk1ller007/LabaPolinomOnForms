@@ -1,12 +1,12 @@
 ﻿  MyForm.cpp
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(64,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(96,20): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(109,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(145,25): warning C4244: return: преобразование "float" в "int", возможна потеря данных
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(151,35): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(218,15): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(234,33): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(250,17): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(61,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(93,20): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(106,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(142,25): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(148,35): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(215,15): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(231,33): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\kylae\Desktop\Программирование\PolinomForm\Monom.h(246,17): warning C4244: =: преобразование "int" в "float", возможна потеря данных
 C:\Users\kylae\Desktop\Программирование\PolinomForm\CirlcleList.h(19,40): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
 C:\Users\kylae\Desktop\Программирование\PolinomForm\CirlcleList.h(26,54): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
 C:\Users\kylae\Desktop\Программирование\PolinomForm\CirlcleList.h(64,45): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных

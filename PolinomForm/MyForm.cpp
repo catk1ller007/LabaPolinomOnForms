@@ -50,9 +50,6 @@ System::Void PolinomForm::MyForm::checkNumericMaxDegreeAndCountVar()
 
 	if (maxDegree == 0 || countVar == 0)
 	{
-		groupBoxWorkSpace->Enabled = false;
-		groupBoxOperations->Enabled = false;
-
 		buttonReset->Enabled = false;
 	}
 	else
@@ -63,9 +60,7 @@ System::Void PolinomForm::MyForm::checkNumericMaxDegreeAndCountVar()
 		polTwo.setDegreeAndCountVar(maxDegree, countVar);
 		polRes.setDegreeAndCountVar(maxDegree, countVar);
 
-		groupBoxWorkSpace->Enabled = true;
-		groupBoxOperations->Enabled = true;
-
+		panel1->Visible = true;
 		buttonReset->Enabled = true;
 	}
 }
@@ -86,6 +81,7 @@ System::Void PolinomForm::MyForm::buttonReset_Click(System::Object^ sender, Syst
 
 	numericUpDownMaxDegree->Value = 0;
 	numericUpDownCountVar->Value = 0;
+	panel1->Visible = false;
 
 	clearPolAll();	
 }
